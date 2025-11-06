@@ -1,7 +1,7 @@
 [package]
-name = "ratzilla-vercel-template"
-version = "0.1.0"
-authors = ["jet"]
+name = "in-amber-clad"
+version = "0.1.1"
+authors = ["Vanderson Antonietti"]
 license = "MIT"
 edition = "2021"
 
@@ -9,3 +9,8 @@ edition = "2021"
 ratatui = { version = "0.29.0", default-features = false }
 color-eyre = "0.6.3"
 ratzilla = "0.0.4"
+tachyonfx = { version = "0.19.0", default_features = false, features = [
+  "web-time",
+] }
+console_error_panic_hook = "0.1.7"
+examples-shared = { path = "../shared" }
