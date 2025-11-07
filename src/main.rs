@@ -12,7 +12,6 @@ use ratzilla::{
     WebRenderer,
 };
 
-use examples_shared::backend::{BackendType, MultiBackendBuilder};
 use ratzilla::backend::webgl2::WebGl2BackendOptions;
 use tachyonfx::{
     fx::{self, RepeatMode},
@@ -135,4 +134,3 @@ fn render_menu(f: &mut Frame<'_>, state: &mut State) {
     );
     f.render_effect(&mut state.menu_effect, area, Duration::from_millis(100));
 }
-
